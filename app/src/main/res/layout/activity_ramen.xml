@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yuditarum.resepmakanan.RamenActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:text="Ramen"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="22dp"
+            app:srcCompat="@drawable/ramen" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/imageView6"
+            android:layout_marginTop="26dp"
+            android:text="        Bahan-bahan :
+        1 bks Ramen instan
+        1 butir telur rebus
+        2 potong ayam (kalo seekor ayam dipotong 12 bagian)
+        2 bonggol caisim
+        8 buah rawit setan
+        Sebatang daun bawang
+        500 mL air untuk kaldu
+
+        Langkah Pembuatan :
+        Cuci ayam, cabe, dan sayuran.
+        Didihkan air, lalu masukkan ayam dan setel api menjadi kecil.
+        Potong kasar cabe dan daun bawang, serta potong caisim sekitar 3 cm.
+        Buang buih di air rebusan ayam.
+        Masukkan bumbu dan cabe rawit ke dalam mangkuk.
+        Angkat ayam, lalu potong sesuai selera. Air rebusan tadi dituang
+        ke dalam mangkuk sesendok sayur.
+        Rebus mi sesuai petunjuk kemasan. Masukkan caisim ke dalam rebusan.
+        Angkat mi dan caisim, tiriskan. Masukkan ke dalam mangkuk saji.
+        Belah telur rebus menjadi dua bagian, tata di atas mi beserta
+        potongan ayam dan daun bawang. Jika terlalu asin, bisa
+        tambahkan kaldu ayam. Jika kurang pedas, bisa tambahkan cabe bubuk."/>
+    </RelativeLayout>
+</ScrollView>

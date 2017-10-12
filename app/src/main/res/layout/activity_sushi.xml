@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yuditarum.resepmakanan.SushiActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Sushi"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView8"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/sushi" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView7"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="21dp"
+            android:text="        Bahan-bahan :
+        100 gram Beras pulen
+        50 gram Beras Ketan
+        4 lembar Nori
+        secukupnya Cuka
+        2 sendok makan Gula Pasir
+        1 sendok teh Garam
+        3 sendok makan Air
+        4 buah Sosis Sapi
+        8 buah Kentang
+        4 buah Nugget
+        3 butir Telur Ayam
+        1 buah Wortel
+
+        Langkah Pembuatan :
+        Siapkan bahan isi, rebus wortel sampe matang ,
+        dadar telur jadi 3-4 buah.goreng nugget ,kentang
+        dan sosis, disini saya gunakan nugget oval,krn
+        cuma itu yang ada didapur ada baik nya nugget bentuk stik.
+        aron nasi sebentar setelah itu kukus sampe matang,
+        tambahkan campuran gula ,cuka dan garam yang telah
+        dilarutkan dengan 3 sdm air tambahkan kedalam nasi
+        yang dikukus tadi, cicipi agar rasa asam manis dan asin terasa.
+        setelah matang angkat sisihkan.
+        Ambil 1 lembar nori atur nasi panas diatasnya kurang lebih
+        setebal 1/2 cm usahakan jangan menutup nori keseluruhan
+        sisa kan nori di sisi atas bawah tidak isi nasi agar saat
+        menggulung nori dapat terekat dengan baik.
+        atur dadar telur diatas nasi Kemudian susun isi dipinggir nasi
+        yang telah ditata di nori mulailah menggulung sushi dengan
+        perlahan sambil dipadatkan. oya alasi dengan plastik dibawah
+        nori agar lebih gampang digulung, tidak harus dengan bambu
+        yg biasa digunakan untuk mengulung sushi."/>
+    </RelativeLayout>
+</ScrollView>
